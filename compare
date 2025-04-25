@@ -1,22 +1,22 @@
- Fig. 3: BER vs Distance (L)
+#  Fig. 3: BER vs Distance (L)
 
-Observation            	1 RIS	2 RISs	           Difference
-BER at short distance	  Low	Even lower	         Slight improvement
-BER at long distance	  Rises significantly      Rises slowly	Much better stability
-Curve shape	Increases   steeply	Smoother,flatter Improved coverage
-
-
- Fig. 4: BER vs SNR
-
-Observation	              1 RIS	               2 RISs	           Difference
-BER drop with SNR	        Gradual	              Faster drop	     More efficient
-BER floor             	  ~10⁻³     	          ~10⁻⁴ or better  1 order of magnitude lower
-SNR                       improvement	Moderate	~2–3 dB better	 Better performance at same SNR
+# Observation            	1 RIS	2 RISs	              Difference
+# BER at short distance	  Low	Even lower	           Slight improvement
+# BER at long distance	  Rises significantly        Rises slowly	Much better stability
+# Curve shape	Increases   steeply	Smoother,flatter  Improved coverage
 
 
- Fig. 5: Learning Curve (Loss vs Epochs)
+#  Fig. 4: BER vs SNR
 
-Observation	       1 RIS	     2 RISs	      Difference
-Initial loss	     Higher	     Lower	     Better initialization
-Convergence speed	 Moderate	   Faster	     Learns quicker
-Final loss	       Higher	     Lower	     More accurate model
+# Observation	              1 RIS	                2 RISs	           Difference
+# BER drop with SNR	        Gradual	              Faster drop	      More efficient
+# BER floor             	  ~10⁻³     	            ~10⁻⁴ or better   1 order of magnitude lower
+# SNR                       improvement	Moderate	 ~2–3 dB better	   Better performance at same SNR
+
+
+#  Fig. 5: Learning Curve (Loss vs Epochs)
+
+# Observation	       1 RIS	     2 RISs	      Difference
+# Initial loss	      Higher	     Lower	       Better initialization
+# Convergence speed	 Moderate	   Faster	     Learns quicker
+# Final loss	        Higher	     Lower	       More accurate model
