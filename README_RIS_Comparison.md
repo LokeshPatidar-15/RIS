@@ -72,3 +72,14 @@ Dual RIS setups benefit from **richer input-output signal interactions**, allowi
 - `ber_vs_distance.png`: Shows how BER increases with distance for each configuration  
 - `ber_vs_snr.png`: Compares BER for varying SNR values  
 - `loss_vs_epoch.png`: Visualizes training efficiency of DL models for RIS optimization
+
+- A single RIS (Reconfigurable Intelligent Surface) system uses one intelligent surface to reflect and manipulate the wireless signals to improve communication quality, such as enhancing signal strength or reducing interference in a specific area. It is simpler to deploy and control, making it suitable for scenarios where signal enhancement is needed in a localized region. On the other hand, a 2 RIS system involves two separate intelligent surfaces placed at different locations. This setup allows for more advanced manipulation of wireless signals by reflecting them multiple times, which can extend coverage, improve signal reliability, and handle more complex environments where obstacles block direct communication paths. Although 2 RIS systems provide better overall performance through multi-hop signal reflection and increased control over the wireless environment, they are more complex to coordinate and manage compared to a single RIS. Therefore, single RIS is ideal for basic enhancements, while 2 RIS is better suited for more demanding use cases requiring extended range or improved connectivity.
+
+
+
+
+
+
+
+
+
